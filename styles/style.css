@@ -6,3 +6,169 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header {
+
+    background-image: url(/images/landing.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 800px;
+
+  .nav-bar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+
+    .nav-links {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+      padding-right: 80px;
+    }
+  }
+
+  .header-tittle {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center; 
+    color: white;
+    font-weight: 300;
+    height: 100%;
+    width: 100%;
+
+    .header-h1 {
+        font-size: 4rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .header-p {
+        font-size: 2rem;
+        padding: 0px 450px;
+    }
+  }
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+
+    .info-section-h2 {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        border-bottom: solid 3px #00B172;
+    }
+
+    .advantages-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .advantage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 33.3%;
+        margin-top: 20px;
+
+
+    }
+
+    .advantage-h3{
+        font-size: 1.6rem;
+        color: #00B172;
+        margin-top: 1;        
+    }
+
+    .advantage-p {
+        font-size: 1.3rem;
+        margin: 0;
+        padding: 0px 120px;
+    }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #00B172;
+  margin: 0 20px;
+  color: white;
+  padding: 50px 150px;
+
+  .footer-h2{
+    display: inline-block;
+    font-size: 2.1rem;
+    font-weight: 500;
+    border-bottom: solid 2px white;    
+  }
+
+  .footer-section {
+    padding-left: 100px;
+  }
+
+  .footer-h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  .footer-p {
+    font-size: 1.3rem;
+    font-weight: 200;
+    width: 300px;
+  }
+
+  .spotify-logo{  
+    width: 100px;
+    height: 100px;
+    
+  }  
+
+  .space-logo {
+    width: 30%;
+  }
+  
+  .center-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .space-width {
+    width: 35%;
+  }
+
+  .img-app {
+    width: 350px;
+    padding-top: 40px;
+  }
+}
+
